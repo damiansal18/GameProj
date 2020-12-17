@@ -10,6 +10,10 @@ public class Menu : MonoBehaviour
     private int origin_y;
     public GUISkin mySkin;
     // Start is called before the first frame update
+
+
+        //Main menu of game.
+
     void Start()
     {
         buttonWidth = 200;
