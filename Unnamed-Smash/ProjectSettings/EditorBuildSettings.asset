@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/Personal/Damian.unity
+    guid: 210945a222b5db54d82ee7e2fa599517
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: c0d815588b82ea34089d45e13070652a
   m_configObjects: {}
