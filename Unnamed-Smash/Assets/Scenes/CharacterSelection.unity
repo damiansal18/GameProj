@@ -311,7 +311,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   buttonWidth: 0
   buttonHeight: 0
-  mySkin: {fileID: 0}
+  mySkin: {fileID: 11400000, guid: 83c7291a7d01c1e43acac9da946822ec, type: 2}
 --- !u!1 &963030710
 GameObject:
   m_ObjectHideFlags: 0
