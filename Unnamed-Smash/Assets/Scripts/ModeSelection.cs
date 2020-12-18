@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class GameModeScreen : MonoBehaviour
+public class ModeSelection : MonoBehaviour
 {
     public int buttonWidth;
     public int buttonHeight;
@@ -25,7 +25,7 @@ public class GameModeScreen : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void OnGUI()
     {
         GUI.skin = mySkin;
 
@@ -36,15 +36,15 @@ public class GameModeScreen : MonoBehaviour
 
         if (GUI.Button(new Rect(origin_x, origin_y, buttonWidth, buttonHeight), "Skirmish"))
         {
-          //  Application.LoadLevel(1);
+           Application.LoadLevel(3);
         }
         if (GUI.Button(new Rect(origin_x, origin_y + buttonHeight + 20, buttonWidth, buttonHeight), "Challenge"))
         {
-           // Application.LoadLevel(2);
+           Application.LoadLevel(3);
         }
         if (GUI.Button(new Rect(origin_x, origin_y + buttonHeight * 2 + 40, buttonWidth, buttonHeight), "Story Mode"))
         {
-           // Application.LoadLevel(3);
+            Application.LoadLevel(3);
         }
     }
 }

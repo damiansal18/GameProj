@@ -32,11 +32,11 @@ public class Menu : MonoBehaviour
         }
         if (GUI.Button(new Rect( origin_x , origin_y + buttonHeight +20, buttonWidth , buttonHeight ), "GameModes") )
         {
-            Application.LoadLevel(2);
+           Application.LoadLevel(4);
         }
         if (GUI.Button(new Rect( origin_x , origin_y + buttonHeight*2 + 40 , buttonWidth , buttonHeight ) , "Continue/Saved") )
         { 
-            Application.LoadLevel(3);
+            //Application.LoadLevel(3);
         }
         if (GUI.Button(new Rect(origin_x, origin_y + buttonHeight * 3 + 60, buttonWidth, buttonHeight), "Quit"))
 #if UNITY_EDITOR

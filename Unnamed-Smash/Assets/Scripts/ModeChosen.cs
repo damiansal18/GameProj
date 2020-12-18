@@ -26,13 +26,13 @@ public class ModeChosen : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
+    void OnGUI()
     {
         GUI.skin = mySkin;
 
         if (GUI.Button(new Rect(40, 40, 200, 100), "Back"))
         {
-            Application.LoadLevel(0); // back to main menu
+            Application.LoadLevel(4); // back to game mode
         }
 
         if (GUI.Button(new Rect(origin_x, origin_y, buttonWidth, buttonHeight), "Character Selection"))
@@ -41,7 +41,7 @@ public class ModeChosen : MonoBehaviour
         }
         if (GUI.Button(new Rect(origin_x, origin_y + buttonHeight + 20, buttonWidth, buttonHeight), "Start"))
         {
-            // Application.LoadLevel(2); begin respective game mode
+            Application.LoadLevel(1); //begin respective game mode
         }
     }
 }

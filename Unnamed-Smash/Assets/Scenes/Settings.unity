@@ -182,7 +182,7 @@ SpriteRenderer:
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
-  m_DrawMode: 2
+  m_DrawMode: 1
   m_Size: {x: 500, y: 500}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
@@ -391,7 +391,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0707766cd7e09f5429defaca53cc8b30, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  buttonWidth: 0
-  buttonHeight: 0
+  buttonWidth: 200
+  buttonHeight: 50
   mySkin: {fileID: 11400000, guid: 83c7291a7d01c1e43acac9da946822ec, type: 2}
-  hSliderValue: 0

@@ -11,4 +11,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Menu.unity
     guid: c0d815588b82ea34089d45e13070652a
+  - enabled: 1
+    path: Assets/Scenes/Personal/Adrien.unity
+    guid: 1159f2d0b3d414242a4b29fcc6ddf1fd
+  - enabled: 1
+    path: Assets/Scenes/Settings.unity
+    guid: f0b540907b3c9a14c937f45f6d1ebafb
+  - enabled: 1
+    path: Assets/Scenes/CharacterSelection.unity
+    guid: f4231155bc567144f9ea50b87122fa16
   m_configObjects: {}
