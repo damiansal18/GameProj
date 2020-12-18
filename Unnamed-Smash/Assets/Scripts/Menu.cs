@@ -28,7 +28,7 @@ public class Menu : MonoBehaviour
         GUI.skin = mySkin;
 
         if (GUI.Button(new Rect( origin_x , origin_y , buttonWidth , buttonHeight ) , "Start Skirmish" ) ) {
-            Application.LoadLevel(3);
+            Application.LoadLevel(1);
         }
         if (GUI.Button(new Rect( origin_x , origin_y + buttonHeight +20, buttonWidth , buttonHeight ), "GameModes") )
         {
